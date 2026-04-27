@@ -1,0 +1,12 @@
+cask "typeread" do
+  version "0.1.0"
+  sha256 "d4898e722438c112c081f5c53ddf3cb1839331d95c9df01cffdaa5bad7dbc4d8"
+  url "https://github.com/tianyi1580/typeread/releases/download/v#{version}/TypeRead_0.1.0_aarch64.dmg"
+  name "TypeRead"
+  desc "A minimalist, beautiful typing practice app for readers"
+  homepage "https://github.com/tianyi1580/typeread"
+  app "TypeRead.app"
+  postflight do
+    system_command "xattr", args: ["-rd", "com.apple.quarantine", "#{appdir}/TypeRead.app"]
+  end
+end
