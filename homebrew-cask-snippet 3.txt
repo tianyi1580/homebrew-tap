@@ -1,7 +1,7 @@
 cask "typeread" do
-  version "0.1.4"
-  sha256 "54068d0fdb6439cfa067cf7165fc061538c8be269569943898425c76675cbdd2"
-  url "https://github.com/tianyi1580/typeread/releases/download/v#{version}/TypeRead_0.1.4_aarch64.dmg"
+  version "0.1.2"
+  sha256 "492e6c7273c7cbd917777a464fe834851315720d0f2ee9498323ff1eafb6702a"
+  url "https://github.com/tianyi1580/typeread/releases/download/v#{version}/TypeRead_0.1.2_aarch64.dmg"
   name "TypeRead"
   desc "A minimalist, beautiful typing practice app for readers"
   homepage "https://github.com/tianyi1580/typeread"
